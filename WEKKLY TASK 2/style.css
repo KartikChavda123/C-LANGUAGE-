@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .container-fluid{
+    border: 2px solid black;
+}
+.container{
+    border: 2px solid green;
+}
+.row{
+    border: 3px solid grey;
+}
+.col{
+    border: 5px solid brown;
+} */
+
+@media screen and (min-width: 992px) {
+    .navbar {
+      padding: 0;
+    }
+    .navbar .navbar-nav .nav-link {
+      padding: 1em 0;
+    }
+    .navbar .navbar-nav .nav-item {
+      margin: 0 1em;
+    }
+  }
+  
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: whitesmoke;
+    margin: 0 auto;
+    content: "";
+    background-color: black;
+    width: 0%;
+    height: 4px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+  }
+
+  
+#a1{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://images.ctfassets.net/pmzhtobns06n/3F9IIgfAPoM1Ca1Qgjf6v4/4bfd526b19a31990ea96d4712f0cc604/Group_4600.png?fm=webp&q=80");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;    
+}
+#a2{
+    background-image: url("IMG/a5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 53vh;
+}
+#a3{
+    background-image: url("IMG/a5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#a4{
+    background-image: url("IMG/a5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#a5{
+    background-image: url("IMG/a5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#b1{
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.main1{
+  height: 80vh;
+  background-image: url("IMG/s5.webp");
+}
+#c1{
+  height: 600px;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#h1{
+  background-image: url("https://images.ctfassets.net/pmzhtobns06n/3F9IIgfAPoM1Ca1Qgjf6v4/4bfd526b19a31990ea96d4712f0cc604/Group_4600.png?fm=webp&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 82vh;
+}
+
+#q1{
+    background-image: url("IMG/ex1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 77vh;
+    border-radius: 15px;
+    margin-left: 17vh;
+    width: 38%;
+}
+#q2{
+    background-image: url("IMG/ex2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 82vh;
+    border-radius: 15px;
+    width: 38%;
+    margin-left: 11vh;
+    margin-top: 7vh;
+} 
+
+#q3{
+  background-image: url("IMG/home-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+}
+
+#q5{
+  background-image: url("https://images.ctfassets.net/pmzhtobns06n/3VOj7B2ODRaKaqQUEwr0eJ/9de6ee9ec9edbd376d84a94ab1fbfe20/Background_Texture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#sec1{
+  height: 250px;
+  width: 100%;
+  /* border: 1px solid red; */
+  /* background-color: black; */
+}
+
+#sec1 img{
+  height: 50vh;
+  width: 100%;
+}
+
+
+
+#sec5{
+  background-color: #4B0983;
+  height: 45vh;
+  overflow: hidden;
+}
+
+
+#sec6 img{
+  height: 100%;
+  width: 30%;
+  margin-top: -50px;
+}
+
+#sec10 i{
+  color: #4B0983;
+  font-size: 30px;
+  padding: 30px;
+  margin-top: 35px;
+}
+
+#sec25 a{
+  color: #4B0983;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  margin-top: 1%;
+}
+
+.l1{
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.l2{
+  height: 450px;
+  width: 85%;
+  /* border: 1px solid firebrick; */
+  margin-left: 7%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.l3{
+  height: 330px;
+  width: 300px;
+  border-radius: 15px;
+  margin-top: 5%;
+  /* border: 1px solid grey; */
+}
