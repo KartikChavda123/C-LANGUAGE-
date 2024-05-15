@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .container-fluid{
+    border: 2px solid black;
+}
+.container{
+    border: 3px solid green;
+}
+.row{
+    border: 3px solid red;
+}
+.col{
+    border: 3px solid grey;
+} */
+.d1{
+    font-family: "Playfair Display";
+    font-weight: 500;
+}
+.d2{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.navbar-brand img {
+    width: 80px;
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+  }
+  @media screen and (min-width: 768px) {
+    .navbar-brand img {
+      width: 100px;
+    }
+    .navbar-brand {
+      margin-right: 0;
+      padding: 0 1em;
+    }
+  }
+  
+#a1{
+    height: 100vh;
+    background-image: url("https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2020/12/coffeebean-hero-coffee-cup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a2{
+    font-family: "Playfair Display";
+}
+.a3{
+    height: 65vh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url("https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2020/08/coffee-bag-01-600x839.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a4{
+    height: 65vh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url("https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2020/08/coffee-bag-02-600x839.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a5{
+    height: 65vh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url("https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2020/08/coffee-bag-03-600x839.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a6{
+    height: 65vh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url("https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2020/08/coffee-04-600x839.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a7{
+    height: 11vh;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* background-color: black; */
+}
+.a8{
+    height: 11vh;
+    width: 100%;
+    /* background-color: black; */
+}
+.a9{
+    height: 11vh;
+    width: 100%;
+    /* background-color: black; */
+}
+.a10{
+    height: 11vh;
+    width: 100%;
+    /* background-color: black; */
+}
+.a11{
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2020/12/coffeebean-coffee-cup-black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.a12{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2020/12/leaf.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.a13{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("https://www.amayatheme.redsun.design/roastery/wp-content/uploads/sites/2/2020/12/coffeebean-iced-coffee-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.a14{
+    font-family: "Playfair Display";
+}
+.a15{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    height: 50px;
+    width: 170px;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a16{
+    font-family: "Playfair Display";
+}
+.a17{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+.a18{
+    font-family: "Playfair Display";
+}
+.a19{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.a20{
+    font-family: "Playfair Display";
+}
+#exampleFormControlInput1{
+    height: 50px;
+    width: 45vh;
+    margin-top: 3%;
+}
+::placeholder{
+    padding-left: 25%;
+}
+.c1{
+    font-family: "Raleway";
+    text-align: center;
+    font-weight: 500;
+}
+.c2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.c3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
